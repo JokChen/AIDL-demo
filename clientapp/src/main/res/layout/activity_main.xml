@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jokchen.client.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_start_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动外部服务" />
+
+    <Button
+        android:id="@+id/btn_stop_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止外部服务" />
+
+    <Button
+        android:id="@+id/btn_bind_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定外部服务" />
+
+    <Button
+        android:id="@+id/btn_unbind_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解除绑定外部服务" />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/btn_sync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="同步数据到app" />
+
+    <Button
+        android:id="@+id/btn_add_listener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加监听" />
+
+
+</LinearLayout>
