@@ -1,0 +1,3 @@
+include ':antherapp'
+include ':app'
+rootProject.name = "MyAidlDemo"
